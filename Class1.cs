@@ -20,8 +20,8 @@ public class Student
         string str;
         str = "學生編號: " + ID.ToString();
         str += "\n學生姓名: " + Name;
-        str += "\n期終考試成績: " + Score.GetMid().ToString();
-        str += "\n期中考成績" + Score.GetFinal().ToString();
+        str += "\n期終考成績:" + Score.GetMid().ToString();
+        str += "\n期中考成績:" + Score.GetFinal().ToString();
         str += "\n平均成績" + Score.GetAvg().ToString();
 
         return str;
